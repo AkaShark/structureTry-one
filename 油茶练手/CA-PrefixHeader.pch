@@ -1,0 +1,28 @@
+//
+//  CA-PrefixHeader.pch
+//  油茶练手
+//
+//  Created by kys-20 on 2017/12/10.
+//  Copyright © 2017年 kys-20. All rights reserved.
+//
+
+#ifndef CA_PrefixHeader_pch
+#define CA_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CA_PrefixHeader_pch */
+
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define viewX frame.origin.x
+#define viewY frame.origin.y
+#define viewWidth frame.size.width
+#define viewHeight frame.size.height
+
+
+///标准绿
+#define standardGreen [UIColor colorWithRed:92/255.0 green:197/255.0 blue:149/255.0 alpha:1]
+//标准暗
+#define standardGray [UIColor colorWithRed:1/255.0 green:1/255.0 blue:1/255.0 alpha:0.1]
